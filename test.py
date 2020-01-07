@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
-
+print("bla")
 # Grab some test data.
 X, Y, Z = axes3d.get_test_data(0.05)
 
